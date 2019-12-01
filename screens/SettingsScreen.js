@@ -17,7 +17,7 @@ export default function SettingsScreen() {
       </View>
     
       <TouchableOpacity style={styles.petButton} onPress={() => alert("Button Pressed")}>
-        <Text style={styles.petText}>Add Appointment</Text>
+        <Text style={styles.petText}>Request Appointment</Text>
       </TouchableOpacity>
     </ScrollView>
   );
